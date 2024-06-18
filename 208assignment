@@ -1,0 +1,42 @@
+1. Difference between User and System Requirements
+User Requirements: User requirements are statements in natural language plus diagrams that describe what the system should do, and they are generally written from the user's perspective. These requirements focus on the needs and expectations of the users or stakeholders who will interact directly with the system. For example, in an e-commerce platform, a user requirement might be "Allow users to create accounts using email and password."
+
+System Requirements: System requirements specify the functions that the system should perform and the constraints under which it must operate. These are more technical and detailed compared to user requirements. They focus on the software system itself, including performance, reliability, security, and other technical aspects. For instance, a system requirement for the same e-commerce platform might be "Ensure that the system can handle at least 1000 concurrent user sessions."
+
+Importance of Distinguishing: It's critical to distinguish between user and system requirements during the requirements engineering process because they serve different purposes and audiences. User requirements ensure that the system meets the needs of its intended users, enhancing usability and satisfaction. System requirements, on the other hand, ensure that the system functions correctly, efficiently, and securely. Clear distinction helps in prioritization, design decisions, and overall alignment with project goals.
+
+2. Sample User and System Requirements
+For your specific project, you would need to draft these based on your client's needs and system functionalities. Here's a general outline:
+
+User Requirements:
+
+Allow users to register and log in using email and password.
+Provide an intuitive interface for browsing products.
+Enable users to add items to their cart and proceed to checkout seamlessly.
+System Requirements:
+
+The system should support HTTPS for secure communication.
+Ensure that the database can handle a minimum of 10,000 product listings.
+Implement a backup system that runs daily to ensure data integrity.
+Gathering Process: User requirements are typically gathered through interviews, surveys, and observing user interactions. System requirements are derived from technical discussions, architectural considerations, and performance expectations.
+
+Guiding Design and Development: These requirements serve as the foundation for system design decisions, such as architecture choices, database schema, and user interface design. They also guide development by providing clear objectives and constraints that developers must adhere to.
+
+3. Principles and Essential Practices of Agile Process Models
+Agile methodologies like Scrum and Kanban emphasize iterative development, collaboration, flexibility, and responsiveness to change. They handle changing requirements through continuous feedback loops, frequent releases, and adaptive planning. This contrasts with traditional waterfall models where requirements are fixed upfront and changes are costly.
+
+Example Adaptation: In Scrum, changes are accommodated through the product backlog, sprint planning, and regular sprint reviews. For instance, if new user stories emerge or existing ones need revision based on stakeholder feedback, they can be prioritized and incorporated in subsequent sprints.
+
+4. Importance of Process Flow Diagrams and Use Cases
+Process flow diagrams and use cases are crucial tools in software engineering for understanding system functionality and communication. They help visualize interactions between system components, user actions, and system responses.
+
+5. Concepts of User Stories, Epics, and Features in Agile
+User Stories: User stories are short, simple descriptions of a feature told from the perspective of the person who desires the new capability, usually a user or customer.
+
+Epic: An epic is a large body of work that can be broken down into a number of smaller stories or tasks.
+
+Feature: A feature represents a chunk of functionality that delivers business value.
+
+These concepts contribute to the Agile requirements engineering process by breaking down work into manageable units, prioritizing based on value, and ensuring alignment with client needs.
+
+I hope this helps you structure your answers effectively! If you have specific questions or need further clarification on any point, feel free to ask.

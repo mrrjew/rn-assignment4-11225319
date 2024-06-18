@@ -3,6 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { SafeAreaView,SafeAreaProvider } from 'react-native-safe-area-context';
 import Login from './screens/Login';
+import Home from './screens/Home';
 
 
 export default function App() {
@@ -18,6 +19,11 @@ export default function App() {
          headerShown:false
          }}
          name='Login' component={Login} />
+       <Stack.Screen 
+       options={{
+         headerShown:false
+         }}
+         name='Home' component={Home} />
        </Stack.Navigator>
       </SafeAreaView>
     </SafeAreaProvider>
