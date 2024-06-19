@@ -34,6 +34,11 @@ export default function Login({navigation}){
             </svg>
             </center>
 
+            <View>
+                <center>
+                    <Image source={require("../assets/socials.png")}/>
+                </center>
+            </View>
         </View>
     )
 }
